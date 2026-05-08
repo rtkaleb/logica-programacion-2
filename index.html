@@ -1,19 +1,33 @@
-<!--Página para hacer un conversor de temperatura de Celsius a Fahrenheit1 y Kelvin-->
+<!-- Página para hacer un conversor de temperatura -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Conversor de temperaturas</title>
 </head>
+
 <body>
-    <h1>Conversor de Temperatura</h1>
-    <p>Ingrese la temperatura en Celsius:</p>
-    <input type="number" id="celsius">
-    <button onclick="convertir()">Convertir</button>
-    <p id="resultado"></p>
+
+    <div class="contenedor">
+
+        <h1>Conversor de Temperatura</h1>
+
+        <p>Ingrese la temperatura en Celsius:</p>
+
+        <input type="number" id="celsius">
+
+        <button onclick="convertir()">
+            Convertir
+        </button>
+
+        <p id="resultado"></p>
+
+    </div>
 
     <script src="script.js"></script>
 
 </body>
+
 </html>
